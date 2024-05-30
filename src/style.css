@@ -1,1 +1,53 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  text-align: center;
+  line-height: 400px;
+  background: linear-gradient(45deg, purple, blue, yellow, green);
+  display: inline-block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid black;
+  position: relative;
+}
+
+.top-suit {
+    position: absolute;
+    top: -160px;
+    left: 20px;
+    font-size: 80px;
+}
+.bottom-suit {
+    position: absolute;
+    bottom: -150px;
+    right: 20px;
+    font-size: 80px;
+}
+
+.numberLetter {
+  font-size: 100px;
+}
+
+.button1 {
+  position: absolute;
+  left: 50%; /* Coloca el botón en el centro horizontal */
+  transform: translateX(-50%); /* Centra horizontalmente el botón */
+  height: 60px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 100px;
+  background: linear-gradient(-45deg, purple,white, green);
+  margin-top: 20px;
+
+}
+
