@@ -9,21 +9,7 @@ button.addEventListener("click", function() {
 // Funcion para generar una carta aleatoria.
 function generateRandomCard() {
   const suits = ["&spades;", "&clubs;", "&hearts;", "&diams;"];
-  const values = [
-    "A",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "J",
-    "Q",
-    "K",
-  ];
+  const values = [ "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" ];
 
   const randomSuit = suits[Math.floor(Math.random() * suits.length)];
   const randomValue = values[Math.floor(Math.random() * values.length)];
